@@ -7,6 +7,7 @@ class Buck < Formula
   head "https://github.com/alonlevih/buck.git"
   version @@buck_version
   url "https://api.github.com/repos/alonlevih/buck/tarball/v2018.08.20.01"
+  sha256 "519fd49fa6af062242b9a37e55627d14bfd2e7c235e4cdca4d357fdb46d2b2f9"
 
   bottle do
     root_url "https://github.com/alonlevih/buck/releases/download/v#{@@buck_version}"
