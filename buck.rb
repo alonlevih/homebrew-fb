@@ -4,15 +4,13 @@ class Buck < Formula
   @@buck_version = "2017.05.31.01"
   desc "The Buck build system"
   homepage "https://buckbuild.com/"
-  head "https://github.com/facebook/buck.git"
+  head "https://github.com/alonlevih/buck.git"
   version @@buck_version
-  url "https://api.github.com/repos/facebook/buck/tarball/v2017.05.31.01"
-  sha256 "2c25eb745ea0c1a20c420ec751e19f037837d1ace452bc571d2c7e9f90722282"
+  url "https://api.github.com/repos/alonlevih/buck/tarball/v2018.08.20.01"
 
   bottle do
-    root_url "https://github.com/facebook/buck/releases/download/v#{@@buck_version}"
+    root_url "https://github.com/alonlevih/buck/releases/download/v#{@@buck_version}"
     cellar :any_skip_relocation
-    sha256 "8f68bd548fa7eee0cdb179b53b9a5a1cbdedff9aa8e6d541514aa139e867de80" => :yosemite_or_later
   end
 
   depends_on :java => "1.8+"
