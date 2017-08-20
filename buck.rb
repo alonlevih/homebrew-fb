@@ -1,7 +1,7 @@
 require "open3"
 
 class Buck < Formula
-  @@buck_version = "2017.05.31.01"
+  @@buck_version = "2018.08.20.01"
   desc "The Buck build system"
   homepage "https://buckbuild.com/"
   head "https://github.com/alonlevih/buck.git"
